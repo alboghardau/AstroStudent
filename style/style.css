@@ -1,0 +1,210 @@
+/* 
+    Document   : style
+    Created on : Dec 4, 2011, 10:56:31 AM
+    Author     : MAIN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#main{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    height: 480px;
+       
+            
+          
+}
+#topspace{
+    height: 75px;
+
+    
+}
+#topbar{
+           background-image: url(../img/day/upper.png);
+        border:0px solid #84888C;
+        height: 59px;
+
+        padding-left: 45px;
+
+        
+            font-family: Arial,Helvetica,sans-serif;
+            color: white;
+    font-size: 15px;
+    font-weight: bold;
+        text-shadow: #000 1px 1px 1px; 
+
+}
+#lowbar{
+    
+     
+        border:0px solid #84888C;
+ background-image: url(../img/day/mid.png);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+        text-shadow: #B8B8B8 1px 1px 0px;
+        padding-left: 15px;
+}
+#low{
+    
+    background-image: url(../img/day/low.png);
+    height: 40px;
+}
+#contentmain
+{
+       
+        border:0px solid #84888C;
+            text-shadow: #B8B8B8 1px 1px 0px;
+   font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-image: url(../img/day/mid.png);
+}
+div.form{
+    
+    margin-left: 45px;
+    maring-right: 45px;
+}
+
+.sunbt{
+    display: block;
+    background-image: url(../img/day/sun.png);
+    height: 32px;
+    width: 48px;
+}
+
+.sunbt:hover{
+    background-image: url(../img/day/sunpr.png);
+}
+
+.moonbt{
+    display: block;
+    background-image: url(../img/day/moon.png);
+    height: 32px;
+    width: 48px;
+}
+
+.moonbt:hover{
+    background-image: url(../img/day/moonpr.png);
+}
+
+.setbt{
+    display: block;
+    background-image: url(../img/day/set.png);
+    height: 32px;
+    width: 48px;
+}
+
+.setbt:hover{
+    background-image: url(../img/day/setpr.png);
+}
+
+.homebt{
+    display: block;
+    background-image: url(../img/day/home.png);
+    height: 32px;
+    width: 113px;
+}
+
+.homebt:hover{
+    background-image: url(../img/day/homepr.png);
+}
+
+.savebt{
+    display: block;
+    background-image: url(../img/day/save.png);
+    height: 32px;
+    width: 113px;
+}
+
+.savebt:hover{
+    background-image: url(../img/day/savepr.png);
+}
+
+.loadbt{
+    display: block;
+    background-image: url(../img/day/load.png);
+    height: 32px;
+    width: 113px;
+}
+
+.loadbt:hover{
+    background-image: url(../img/day/loadpr.png);
+}
+
+.resetbt{
+    display: block;
+    background-image: url(../img/day/reset.png);
+    height: 32px;
+    width: 113px;
+}
+
+.resetbt:hover{
+    background-image: url(../img/day/resetpr.png);
+}
+
+.submitbt{
+    display: block;
+    background-image: url(../img/day/submit.png);
+    height: 32px;
+    width: 113px;
+}
+
+.submitbt:hover{
+    background-image: url(../img/day/submitpr.png);
+}
+table.menu{
+    height: 48px;
+}
+td.space{
+    width: 8px;
+}
+td.input{
+    background-image: url(../img/day/inputs.png);
+    width: 78px;
+    height: 49px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+td.input:hover{
+    background-image: url(../img/day/inputspr.png);
+
+}
+table.start
+{
+    
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    color: #21272e;
+    text-shadow: #ffffff 1px 1px 0px;
+    
+}
+input.trans
+    {
+    background: transparent;
+    border: none;
+    width: 60px;
+    padding-left: 10px;
+    
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    color: #e6ebf1;
+    font-size: 18px;
+}
+td.calc
+{
+    
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
